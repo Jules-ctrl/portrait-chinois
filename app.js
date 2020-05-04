@@ -28,6 +28,7 @@ $(document).ready(function () {
         $("div.dark").toggleClass("over");
         $("div.dark").toggleClass("none");
         $("div.liste").toggleClass("active");
+        $(".zero").toggleClass("zerounder");
     });
 
     $('a.lien').on("click", function () {
