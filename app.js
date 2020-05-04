@@ -53,4 +53,10 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: scrollValue }, 1000);
     });
 
+    $('.scroll').on("click", function () {
+        var target = $(this).attr("href");
+        var scrollValue = $(target).offset().top;
+        $("html, body").animate({ scrollTop: scrollValue }, 1000);
+    });
+
 });

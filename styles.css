@@ -20,7 +20,7 @@
     *:before,
     *:after {
         -webkit-box-sizing: border-box;
-                box-sizing: border-box;
+        box-sizing: border-box;
         outline: none;
     }
 
@@ -49,7 +49,7 @@
 
     ::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 5px #161b1a;
-                box-shadow: inset 0 0 5px #161b1a;
+        box-shadow: inset 0 0 5px #161b1a;
         border-radius: 10px;
     }
 
@@ -173,7 +173,7 @@
         margin-top: 50vh;
         margin-bottom: 0;
         -webkit-transform: translateY(-160%);
-                transform: translateY(-160%);
+        transform: translateY(-160%);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -182,7 +182,7 @@
         font-size: 2.6041666666666666666666666666667vw;
         margin: 0;
         -webkit-transform: translateY(-350%);
-                transform: translateY(-350%);
+        transform: translateY(-350%);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -204,8 +204,8 @@
         height: 100vh;
         background-color: #161b1a;
         -webkit-box-align: safe center;
-            -ms-flex-align: safe center;
-                align-items: safe center;
+        -ms-flex-align: safe center;
+        align-items: safe center;
     }
 
     .droite {
@@ -220,10 +220,10 @@
     .image img {
         position: absolute;
         -webkit-transform: translateY(-50%);
-                transform: translateY(-50%);
+        transform: translateY(-50%);
     }
 
-    .texte h1:first-of-type {
+    .texte h2:first-of-type {
         position: absolute;
         font-family: 'Palanquin Dark';
         font-weight: normal;
@@ -232,12 +232,12 @@
         margin: 0;
         left: 0;
         -webkit-transform: translateX(-30%);
-                transform: translateX(-30%);
+        transform: translateX(-30%);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
 
-    .texte h1:nth-of-type(2) {
+    .texte h2:nth-of-type(2) {
         font-family: 'Lemon Milk';
         font-weight: bold;
         font-style: italic;
@@ -249,7 +249,7 @@
         transition: ease 0.5s;
     }
 
-    .texte h2 {
+    .texte h3 {
         font-family: 'Lemon Milk';
         font-weight: bold;
         font-size: 0.989vw;
@@ -265,7 +265,7 @@
         transition: ease 0.5s;
     }
 
-    .texte a {
+    .button {
         font-family: 'Lemon Milk';
         font-weight: bold;
         font-size: 0.989vw;
@@ -278,7 +278,7 @@
         transition: ease 0.5s;
     }
 
-    .texte a:hover {
+    .button:hover {
         color: #ea484d;
         background: none;
         border: solid 4px #ea484d;
@@ -324,7 +324,7 @@
     .ligne2 {
         width: 19.16vw;
         -webkit-transform: translateX(8.59vw);
-                transform: translateX(8.59vw);
+        transform: translateX(8.59vw);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -370,7 +370,7 @@
     .ligne4 {
         width: 13.229vw;
         -webkit-transform: translateX(14.53125vw);
-                transform: translateX(14.53125vw);
+        transform: translateX(14.53125vw);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -416,7 +416,7 @@
     .ligne6 {
         width: 7.2916vw;
         -webkit-transform: translateX(20.46875vw);
-                transform: translateX(20.46875vw);
+        transform: translateX(20.46875vw);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -524,8 +524,8 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .bouton a {
@@ -652,8 +652,8 @@
         font-family: 'Lemon Milk';
         font-weight: bold;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -665,7 +665,7 @@
         text-align: center;
         left: 50vw;
         -webkit-transform: translateX(-50%);
-                transform: translateX(-50%);
+        transform: translateX(-50%);
         -webkit-transition: ease 0.5s;
         transition: ease 0.5s;
     }
@@ -727,4 +727,42 @@
         top: 18px;
         width: 0%;
         left: 50%;
+    }
+
+
+    /*-----------------MENU---------------*/
+
+    .scroll {
+        position: absolute;
+        padding: 10px;
+        left: 50vw;
+        transform: translateX(-50%);
+    }
+
+    .un {
+        top: 190vh;
+    }
+
+    .deux {
+        top: 290vh;
+    }
+
+    .trois {
+        top: 390vh;
+    }
+
+    .quatre {
+        top: 490vh;
+    }
+
+    .cinq {
+        top: 590vh;
+    }
+
+    .sixx {
+        top: 690vh;
+    }
+
+    .sept {
+        top: 790vh;
     }
