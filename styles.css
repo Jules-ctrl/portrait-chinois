@@ -739,6 +739,11 @@
         transform: translateX(-50%);
     }
 
+    .zero {
+        top: 90vh;
+        z-index: 15;
+    }
+
     .un {
         top: 190vh;
     }
